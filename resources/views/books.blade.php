@@ -6,7 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Books</h1>
-    
+    <h1>Create</h1>
+    <form action="/posts" method="post">
+        @csrf
+        <div>
+            <label for="name" >Gramatas nosaukums</label><br>
+            <input type="name" name="name" id="name"><br>
+        </div>
+        <div>
+            <label for="main" >Galvenā doma</label><br>
+            <textarea name="main" id="main"></textarea><br>
+        </div>
+        <div>
+            <input type="submit" value="Izveidot">
+        </div>
+    </form>
 </body>
 </html>
