@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Create</h1>
-    <form action="/posts" method="post">
+    <form action="/books" method="post">
         @csrf
         <div>
             <label for="name" >Gramatas nosaukums</label><br>
